@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+             background-color: rgb(240, 233, 225);
+        }
+        .container1 {
+        display: grid;
+        grid-template-row: repeat(3, 1fr);
+        gap: 40px; 
+        padding: 20px; 
+    }
+    .container1 img {
+      
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-left: 35%;
+        }
+    button{
+      width: 20%;
+        border-radius: 10%;
+    margin-left: 40%;
+    }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="text-align: center;">INTERIOR DESIGN</h1>
+    </div>
+    <div class="container1">
+    <img src="img2.webp" >
+   <a href="#living"><button><h2>LIVING ROOM</h2></button></a>
+    </div>
+    <div class="container1">
+    <img src="img5.webp" style="height:300px ; width: 31%;">
+    <button><h2>KITCHEN</h2></button>
+    </div>
+    <div class="container1">
+    <img src="img4.webp" >
+    <button><h2>DINING HALL</h2></button>
+    </div>
+
+    
+  <div class="gallery" id="living">
+    <div class="card">
+      <img src="liv1.webp" alt="Living Room 1">
+      <div class="info">
+        <button>₹12,000</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="liv2.webp" alt="Living Room 2">
+      <div class="info">
+        <button>₹15,000</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="liv3.webp" alt="Living Room 3">
+      <div class="info">
+        <button>₹10,500</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="liv4.webp" alt="Living Room 4">
+      <div class="info">
+        <button>₹13,800</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="liv5.webp" alt="Living Room 5">
+      <div class="info">
+        <button>₹9,900</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="liv6.webp" alt="Living Room 6">
+      <div class="info">
+        <button>₹11,200</button>
+        <button class="details">Details</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
